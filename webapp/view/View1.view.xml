@@ -1,0 +1,18 @@
+<mvc:View controllerName="com.study.Z_HttpRequests.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>ajaxTitle}">
+					<content>
+						<List class="sapUiResponsiveMargin" width="auto" items="{httpModel>/}">
+							<items>
+								<ObjectListItem title="User ID: {httpModel>userId}" numberUnit="{httpModel>title}" 
+								intro="{httpModel>body}" number="ID: {httpModel>id}"/>
+							</items>
+						</List>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
