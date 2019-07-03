@@ -7,5 +7,9 @@ IDE: SAP Web IDE
 
 Comments: Plain Ajax, jQuery Methods($.ajax is commonly used in SAPUI5).
 
+UI5 control, ObjectList is used for showing the results.
+
+https://sapui5.hana.ondemand.com/#/api/sap.m.ObjectListItem
+
 Thanks,
 Arun
